@@ -1,14 +1,8 @@
-import { createStore } from 'vuex'
-
+import { createStore } from "vuex";
+import AuthApp from "./auth/AuthApp"
 export default createStore({
-  state: {
-  },
-  getters: {
-  },
-  mutations: {
-  },
-  actions: {
-  },
+ 
   modules: {
-  }
-})
+   AuthApp
+  },
+});
